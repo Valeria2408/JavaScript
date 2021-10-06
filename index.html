@@ -1,28 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-    </head>
-    <body>
-        <script>
-           
-            //arrelgos
-            //let nombreArreglo = []
-            //tamaño del arreglo
-            //nombreArreglo.length;
-            //valor de una posicion de un arreglo
-            //nomreArreglo[posicion];
-            //Agregar valores a un arreglo
-            //nombreArreglo.push(nuevoValor)
-    
-            //sintaxis de un for
-            //for(let nombreVariable = valorInicial; condicion; interacion){
+<head>
 
-                var ciudades = ["Bogota", "Bucaramanga", "Cali", "Monteria", "Valledupar", "Bararnquilla"];
-        for(let inicio = 0; inicio < ciudades.length; inicio++){
+</head>
+
+<body>
+    <script>
+
+        //arrelgos
+        //let nombreArreglo = []
+        //tamaño del arreglo
+        //nombreArreglo.length;
+        //valor de una posicion de un arreglo
+        //nomreArreglo[posicion];
+        //Agregar valores a un arreglo
+        //nombreArreglo.push(nuevoValor)
+
+        //sintaxis de un for
+        //for(let nombreVariable = valorInicial; condicion; interacion)
+        var ciudades = ["Bogota", "Bucaramanga", "Cali", "Monteria", "Valledupar", "Bararnquilla"];
+        for (let inicio = 0; inicio < ciudades.length; inicio++) {
             console.log(ciudades[inicio]);
         }
-                
-        </script>
-    </body>
+        for (let inicio = 0; inicio < ciudades.length; inicio+2) {
+            console.log(ciudades[inicio]);
+        }
+        var impar = ["1", "3", "5", "7", "9", "11", "13", "15", "17", "19", "21", "23", "25", "27", "39"
+        ]
+        for (let inicio = 0; inicio < impar.length; inicio++) {
+            console.log(impar[inicio])
+        }
+
+        var par = ["2", "4", "6", "8", "10", "12", "14", "16", "18", "20", "22", "24", "26", "28", "30"
+        ]
+        for (let inicio = 0; inicio < par.length; inicio++) {
+            console.log(par[inicio])
+        }
+
+    </script>
+</body>
+
 </html>
